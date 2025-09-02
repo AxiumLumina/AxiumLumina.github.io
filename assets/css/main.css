@@ -135,6 +135,30 @@ html {
   text-align: right;
 }
 
+.policies-section {
+  padding: 2rem;
+  text-align: center;
+  color: var(--clr-white);
+}
+
+.policies-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.policies-list h2 {
+	margin-bottom: 0
+}
+
+.policies-list p {
+	margin-top: 0.5rem
+}
+
+.policies-list-item {
+  margin-bottom: 2.5rem;
+}
+
 @media all and (min-width: 1280px) and (max-width: 1440px) {
   .card:hover h1,
   .card h1 {
