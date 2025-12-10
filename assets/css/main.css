@@ -352,3 +352,9 @@ html {
 		font-size: 2rem;
 	}
 }
+
+@media screen {
+	.print-header {
+		display: none;
+	}
+}
