@@ -1,0 +1,55 @@
+@media print {
+	body, html {
+		background: white;
+		color: black !important;
+		min-height: auto;
+	}
+
+	* {
+		color: black !important;
+	}
+
+	.footer-main {
+		display: none;
+	}
+
+	.content {
+		background: white;
+		box-shadow: none;
+		border-radius: 0;
+		margin: 0;
+		padding: 1rem;
+	}
+
+	.content h1 {
+		color: black !important;
+		text-shadow: none;
+		font-size: 2rem;
+	}
+
+	.content-title {
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	.policy-date,
+	.policy-return {
+		position: static;
+		background: none;
+		border: none;
+		padding: 0;
+	}
+
+	.content-box {
+		background: white;
+		border: none;
+		box-shadow: none;
+		margin: 1rem 0;
+		page-break-inside: avoid;
+	}
+
+	.content-box a {
+		color: black !important;
+		text-decoration: underline;
+	}
+}
