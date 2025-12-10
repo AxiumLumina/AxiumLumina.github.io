@@ -84,6 +84,19 @@
         display: none;
     }
 
+    .policy-return {
+        display: none;
+    }
+
+    /* Hide content boxes that only contain links (e.g., subpolicy references) */
+    .content-box > a:only-child {
+        display: none;
+    }
+
+    .content-box:has(> a:only-child) {
+        display: none;
+    }
+
     /* Content adjustments */
     .policy-content {
         page-break-before: avoid;
