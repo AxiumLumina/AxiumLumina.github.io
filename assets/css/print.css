@@ -75,7 +75,8 @@
     }
 
     /* Hide the original title section and policy date in print */
-    .content .content-title {
+	/* The dual level of selectors ensures higher specificity to override other styles */
+	.content .content-title {
         display: none;
     }
 
